@@ -13,12 +13,18 @@ h1 {
 
 .calendar-tables {
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
     gap: 20px;
 }
 
+.calendar {
+    max-width: min-content;
+}
+
 table, thead, td, th {
-    border: 1px solid black;
+    border: 1px solid #D3D3D3;
 }
 
 table {
@@ -30,9 +36,13 @@ table {
 thead {
     font-size: 24px;
 }
+thead tr:first-child {
+    font-size: 26px;
+}
 
 th, td {
-    height: 1.5rem;
+    height: 1.5em;
+    min-width: 1.5em;
 }
 .month {
     background: #D3D3D3;
