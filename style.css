@@ -1,0 +1,40 @@
+body {
+    margin: unset;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: nowrap;
+    overflow: hidden;
+}
+
+h1 {
+    display: block;
+}
+
+.calendar-tables {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+table, thead, td, th {
+    border: 1px solid black;
+}
+
+table {
+    flex: 1 1 32%;
+    border-collapse: collapse;
+}
+
+.month {
+    color: #FFFFFF;
+    background: #00000070;
+}
+
+.days {
+    background: lightgray;
+}
+
